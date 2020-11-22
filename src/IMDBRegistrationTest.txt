@@ -1,0 +1,22 @@
+1. Author tests and utilities to create an imdb account and to log in to https://imdb.com.
+    * Make sure you can create an account via the Create New Account form.
+
+Title:User should be able to create an Account on https://www.imdb.com/
+
+**** Unable to Complete Automation on registration due to Captcha Security feature.****
+
+Description:
+Steps:
+1.Go to https://www.imdb.com/
+2. In the Main header on the Right click on "Sign In" button.
+3.Sign in page should display.- https://www.imdb.com/registration/signin
+4.Click on the 'Create New Account button  from the left column'
+5.User is taken to Create Account Page.-https://www.imdb.com/ap/register
+6.Fill out the Required Input Fields with valid data and email address.
+Enter password meeting  imdb requirements.
+7.Click on 'Create your IMDB account' button.
+8. Page loads Captcha- user needs to input correct text.
+9.Click on 'Continue' button.
+10.Page displays message to 'Verify email' to retrieve and enter a One Time passcode.
+and click on 'Create your IMDB account' to complete.
+11.When entered correctly user is taken to IMDB Homepage.-user name should display on top right where 'Sign in' used to be
