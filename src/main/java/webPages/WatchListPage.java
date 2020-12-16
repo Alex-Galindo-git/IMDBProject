@@ -1,11 +1,8 @@
 package webPages;
 
-import Data.SortData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -74,7 +71,7 @@ public class WatchListPage {
 
     public LandingPage clickDoneBtn(){
 
-        WebDriverWait wait=new WebDriverWait(driver, 300);
+        WebDriverWait wait=new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.presenceOfElementLocated(lblWatchCount));
         wait.until(ExpectedConditions.presenceOfElementLocated(btnDone));
         wait.until(ExpectedConditions.elementToBeClickable(btnDone));

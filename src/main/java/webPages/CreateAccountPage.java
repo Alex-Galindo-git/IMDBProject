@@ -7,7 +7,9 @@ import java.util.concurrent.TimeUnit;
 
 public class CreateAccountPage {
 
-
+    /* Unable to run this  test-script successfully on registration due to Captcha Security feature.**
+     *
+     * */
     WebDriver driver;
     private By txtYourName = By.xpath("//input[@id='ap_customer_name']");
     private By txtEmail = By.xpath("//input[@id='ap_email']");
